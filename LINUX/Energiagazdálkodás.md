@@ -1,6 +1,6 @@
 # Energiagazdálkodás
 
-# Macbook Air mid-2013
+# Macbook Air 6,1 (mid-2013)
 
 - watchdog kikapcsolása
 
