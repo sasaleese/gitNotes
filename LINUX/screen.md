@@ -1,0 +1,20 @@
+- Ctrl-a Esc  - scroll
+- Ctrl-a d    - detach
+- screen -r   - reattach
+
+
+~/.screenrc
+```
+# Turn off the welcome message
+startup_message off
+
+# Disable visual bell
+vbell off
+
+# Set scrollback buffer to 10000
+defscrollback 10000
+
+# Customize the status line
+hardstatus alwayslastline
+hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B} %m-%d %{W}%c %{g}]'
+```
