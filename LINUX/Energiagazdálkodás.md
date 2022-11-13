@@ -14,6 +14,8 @@
 
 - Gnome - Power Saver?
 
+- Gnome Disks - APM=128
+
 # HP N54L
 
 - watchdog kikapcsolása
