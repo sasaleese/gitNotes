@@ -18,3 +18,8 @@ HandleLidSwitchExternalPower=ignore
 ```
 systemctl set-default multi-user.target
 ```
+
+```
+systemctl isolate graphical.target
+systemctl isolate multi-user.target
+```
