@@ -23,7 +23,7 @@
 - javasolt scaling governor - ondemand
 
 
--
+--
 
 ### Watchdog kikapcsolása
 /etc/sysctl.d/disable_watchdog.conf
