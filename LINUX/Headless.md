@@ -1,3 +1,9 @@
+GRUB_CMDLINE_LINUX_DEFAULT
+
+```
+consoleblank=60     # framebuffer módban 1 perc után elsötétít
+```
+
 - /etc/systemd/logind.conf
 
 ```
