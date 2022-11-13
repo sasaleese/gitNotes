@@ -12,3 +12,9 @@ sudo sensors-detect
 ```
 echo drivetemp | sudo tee -a /etc/modules
 ```
+
+# GUI
+
+- Extensions
+- Extension Manager
+  - Freon
