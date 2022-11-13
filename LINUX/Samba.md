@@ -19,17 +19,17 @@ pdbedit -L -v					- userek listázása
 
 ```
 [global]
-   fruit:model = MacBook / MacPro
+	fruit:model = MacBookAir6,1 / MacPro
 
 	fruit:encoding = native
 	fruit:metadata = stream
 	fruit:veto_appledouble = no
 	vfs objects = catia fruit streams_xattr io_uring
    
-   netbios name = HOSTNAME		# wsdd2
+	netbios name = HOSTNAME		# wsdd2
 
-   interfaces = enx0017890116f1 / enp2s0
-   bind interfaces only = yes
+	interfaces = enx0017890116f1 / enp2s0
+	bind interfaces only = yes
 	deadtime = 15	
 	enable core files = no
 	security = user
