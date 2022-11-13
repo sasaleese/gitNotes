@@ -90,3 +90,5 @@ polling_interval = 5	# default is 1 seconds
 
 - powertop
 - [`https://wiki.archlinux.org/title/CPU_frequency_scaling`](https://wiki.archlinux.org/title/CPU_frequency_scaling)
+- [`https://forum.proxmox.com/threads/c-states-not-working.72630/
+`](https://forum.proxmox.com/threads/c-states-not-working.72630/)
