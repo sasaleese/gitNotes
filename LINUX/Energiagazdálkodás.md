@@ -37,6 +37,7 @@
 ### Scaling governor beállítása
 
 - schedutil - default
+- powersave - kevésbé agresszív energiamegtakarítás
 - ondemand - legnagyobb energiamegtakarítás, de okozhat bugokat - [`https://wiki.archlinux.org/title/CPU_frequency_scaling#Troubleshooting`](https://wiki.archlinux.org/title/CPU_frequency_scaling#Troubleshooting)
 
 1. cpupower-gui - governor, minimum és maximum CPU sebesség állítása
