@@ -113,21 +113,31 @@ pdbedit -L -v					- userek listázása
 ;   guest ok = no
 ;   write list = root, @lpadmin
 
-[SHARE]
-	path = /SHARE
-	create mask = 0664
-	directory mask = 2775
-	read only = no
-	guest ok = yes
-	inherit owner = yes
-	
-[TEMP]
-	path = /TEMP
-	create mask = 0666
-	directory mask = 0777
-	read only = no
-	guest ok = yes
-	inherit owner = yes
+[Pool]
+        path = /Pool
+        create mask = 0664
+        directory mask = 2775
+        read only = no
+        guest ok = yes
+        inherit owner = yes
+        
+[Temp]
+        path = /Temp
+        create mask = 0666
+        directory mask = 0777
+        read only = no
+        guest ok = yes
+        inherit owner = yes
+
+[Vault]
+        path = /Vault
+        create mask = 0666
+        directory mask = 0777
+        browsable = no
+        read only = no
+        guest ok = no 
+        valid users = james
+        inherit owner = yes
 ```
 
 # OpenWRT
