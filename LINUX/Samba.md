@@ -13,8 +13,6 @@ pdbedit -L -v					- userek listázása
 
 ---
 
-- directory mask = 2755 - csoport tulajdonos öröklése?
-
 # Ubuntu
 
 ```
@@ -117,8 +115,8 @@ pdbedit -L -v					- userek listázása
 
 [SHARE]
 	path = /SHARE
-	create mask = 0644
-	directory mask = 0755
+	create mask = 0664
+	directory mask = 2775
 	read only = no
 	guest ok = yes
 	inherit owner = yes
