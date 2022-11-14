@@ -26,7 +26,8 @@ pdbedit -L -v					- userek listázása
 	fruit:veto_appledouble = no
 	vfs objects = catia fruit streams_xattr io_uring
    
-	netbios name = HOSTNAME		# wsdd2
+	netbios name = HOSTNAME
+	; wsdd2 hostname parameter
 
 	interfaces = enx0017890116f1 / enp2s0
 	bind interfaces only = yes
@@ -48,7 +49,8 @@ pdbedit -L -v					- userek listázása
 	smb ports = 445
 	unix password sync = no
    
-   workgroup = WORKGROUP		# wsdd2
+   workgroup = WORKGROUP
+   ; wsdd2 workgroup parameter
    server string = %h server (Samba, Ubuntu)
 ;   interfaces = 127.0.0.0/8 eth0
 ;   bind interfaces only = yes
