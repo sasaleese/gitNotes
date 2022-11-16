@@ -1,3 +1,5 @@
+Axagon EE25-XA3 (ASM1153) - Gnome Disk APM 1 spindown 10 minutes
+
 ```
 wget http://adelolmo.github.io/andoni.delolmo@gmail.com.gpg.key -O /etc/apt/trusted.gpg.d/hd-idle.asc
 echo "deb http://adelolmo.github.io/$(lsb_release -cs) $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/adelolmo.github.io.list
