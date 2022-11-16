@@ -1,4 +1,10 @@
-Axagon EE25-XA3 (ASM1153) - Gnome Disk APM 1 spindown 10 minutes
+Sharkoon Rapid-Case 3.5 eSATA - hd-idle
+
+Axagon EE25-XA3 (ASM1153)
+(Gnome Disk APM 1 spindown 10 minutes?) - másodpercekkel múködik, 10 perccel nem???
+
+crontab -e
+@reboot /usr/sbin/hdparm -B1 -S120 /dev/disk/by-label/LABEL
 
 ```
 wget http://adelolmo.github.io/andoni.delolmo@gmail.com.gpg.key -O /etc/apt/trusted.gpg.d/hd-idle.asc
