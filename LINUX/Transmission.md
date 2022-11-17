@@ -78,27 +78,27 @@
 - "blocklist-enabled": true,
 - "blocklist-url": "https://github.com/Naunter/BT_BlockLists/raw/master/bt_blocklists.gz",
 
-- "dht-enabled": false,					    # priv
+- "dht-enabled": false,				    # priv
 
 - "download-dir": "/Download",
 
-- "encryption": 2,					    	# require encryption
+- "encryption": 2,				    	# require encryption
 
-- "lpd-enabled": false,						# csak ha több kliens fut a LAN-on
+- "lpd-enabled": false,					# csak ha több kliens fut a LAN-on
 
-(- "message-level": 1,						# Error)
-(- "peer-congestion-algorithm": "",			# https://www.irif.fr/~jch//software/bittorrent/tcp-congestion-control.html)
+(- "message-level": 1,					# Error)
+(- "peer-congestion-algorithm": "",		# https://www.irif.fr/~jch//software/bittorrent/tcp-congestion-control.html)
 
 - "peer-port": 15951,
 
-- "peer-socket-tos": "default",				# x86 - default, router - lowcost?
+- "peer-socket-tos": "default",			# x86 - default, router - lowcost?
 
-- "pex-enabled": false, 					# peer felderítés lassabb/gyorsabb
+- "pex-enabled": false, 				# peer felderítés lassabb/gyorsabb
 
-- "port-forwarding-enabled": false,			# uPNP?
+- "port-forwarding-enabled": false,		# uPNP?
 
-(- "preallocation": 1,						# 1 - gyors, 2 -teljes (kevesebb töredezettség))
-(- "prefetch-enabled": true,				# router - false; x86 = true)
+(- "preallocation": 1,					# 1 - gyors, 2 -teljes (kevesebb töredezettség))
+(- "prefetch-enabled": true,			# router - false; x86 = true)
 
 - "ratio-limit": 1.1,
 - "ratio-limit-enabled": true,
@@ -113,7 +113,7 @@
 - "speed-limit-up": 3,
 - "speed-limit-up-enabled": true,
 
-- "umask": 0,							    # json-ban 10-es a számrendszer - umask octális "022" = 18
+- "umask": 0,						    # json-ban 10-es a számrendszer - umask octális "022" = 18
 
-(- "utp-enabled": true						# Micro Transport Protocol látencia és congestio javítására)
+(- "utp-enabled": true					# Micro Transport Protocol látencia és congestio javítására)
 ```
