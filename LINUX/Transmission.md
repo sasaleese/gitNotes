@@ -1,3 +1,4 @@
+```
 {
     "alt-speed-down": 50,
     "alt-speed-enabled": false,
@@ -90,3 +91,4 @@
     "upload-slots-per-torrent": 14,
     "utp-enabled": true						# Micro Transport Protocol látencia és congestio javítására
 }
+```
