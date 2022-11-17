@@ -21,7 +21,7 @@
     "encryption": 2,
     "idle-seeding-limit": 30,
     "idle-seeding-limit-enabled": false,
-    "incomplete-dir": "/var/lib/transmission-daemon/Downloads",
+    "incomplete-dir": "",
     "incomplete-dir-enabled": false,
     "lpd-enabled": false,
     "max-peers-global": 200,
