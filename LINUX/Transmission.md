@@ -57,12 +57,16 @@
     "ratio-limit-enabled": true,
 
     "rename-partial-files": true,
-    "rpc-authentication-required": true,
+
+    "rpc-authentication-required": false,
+
     "rpc-bind-address": "0.0.0.0",
     "rpc-enabled": true,
     "rpc-host-whitelist": "",
     "rpc-host-whitelist-enabled": true,
-    "rpc-password": "{b8a01569a8a4c52fa4ad1fab484637387815c27d4pWESCON",
+
+    "rpc-password": "",
+
     "rpc-port": 9091,
     "rpc-url": "/transmission/",
     "rpc-username": "transmission",
