@@ -30,7 +30,9 @@
     "idle-seeding-limit-enabled": false,
     "incomplete-dir": "/var/lib/transmission-daemon/Downloads",
     "incomplete-dir-enabled": false,
+    
     "lpd-enabled": no,						# csak ha több kliens fut a LAN-on
+    
     "max-peers-global": 200,
     "message-level": 1,						# Error
     "peer-congestion-algorithm": "",				# https://www.irif.fr/~jch//software/bittorrent/tcp-congestion-control.html
