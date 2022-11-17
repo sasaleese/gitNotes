@@ -74,6 +74,7 @@
 }
 ```
 
+```
 - "blocklist-enabled": true,
 - "blocklist-url": "https://github.com/Naunter/BT_BlockLists/raw/master/bt_blocklists.gz",
 
@@ -115,3 +116,4 @@
 - "umask": 0,							    # json-ban 10-es a számrendszer - umask octális "022" = 18
 
 (- "utp-enabled": true						# Micro Transport Protocol látencia és congestio javítására)
+```
