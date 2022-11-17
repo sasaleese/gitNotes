@@ -1,4 +1,4 @@
-```
+``
 {
     "alt-speed-down": 50,
     "alt-speed-enabled": false,
@@ -63,15 +63,17 @@
     "rpc-bind-address": "0.0.0.0",
     "rpc-enabled": true,
     "rpc-host-whitelist": "",
-    "rpc-host-whitelist-enabled": true,
+
+    "rpc-host-whitelist-enabled": false,
 
     "rpc-password": "",
 
     "rpc-port": 9091,
     "rpc-url": "/transmission/",
     "rpc-username": "transmission",
-    "rpc-whitelist": "127.0.0.1",
-    "rpc-whitelist-enabled": true,
+
+    "rpc-whitelist": "",
+    "rpc-whitelist-enabled": false,
 
     "scrape-paused-torrents-enabled": false,
 
