@@ -5,7 +5,7 @@ GRUB_CMDLINE_LINUX_DEFAULT
 
 acpi_osi=!Darwin	# Apple ACPI
 
-consoleblank=60		# framebuffer módban 1 perc után elsötétít
+consoleblank=420		# framebuffer módban 7 perc után elsötétít - legyen hosszabb, mint a teljes boot idő, különben részlegesen visszakapcsolja a boot folyamat a képernyőt
 
 video=VGA-1:1280x1024@60 drm.edid_firmware=VGA-1:edid/1280x1024.bin	# grafikus felület van, de 10 mp-enként spam log és képernyőn is spam
 nomodeset		# N54L + Benq - nincs spam loggolás de nincs grafikus felület sem
