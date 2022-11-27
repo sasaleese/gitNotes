@@ -8,8 +8,6 @@
 
 - mbpfan
 
-- ondemand scaling governor - lassú a scroll Firefoxban?
-
 - 15-ös Intel Energy Performance Bias?
 
 - Gnome - Power Saver?
@@ -22,7 +20,7 @@
 
 - Intel energiagazdálkodás kikapcsolható - AMD CPU
 
-- javasolt scaling governor - ondemand
+- javasolt scaling governor - ondemand?
 
 
 ---
