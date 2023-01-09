@@ -1,4 +1,11 @@
 ```
+/etc/sysctl.d/98-transmission.conf
+
+net.core.rmem_max = 16777216
+net.core.wmem_max = 4194304
+```
+
+```
 {
     "alt-speed-down": 50,
     "alt-speed-enabled": false,
